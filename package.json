@@ -1,0 +1,47 @@
+{
+  "name": "@showbie/stylelint-config",
+  "description": "Lint CSS, free of weariness and confusion",
+  "license": "ISC",
+  "author": "Showbie (https://www.showbie.com)",
+  "maintainers": [
+    "Jeff Nelson @stormwarning (https://www.showbie.com)"
+  ],
+  "homepage": "https://github.com/showbie/showbie-stylelint-config",
+  "repository": "showbie/showbie-stylelint-config",
+  "version": "0.0.0",
+  "scripts": {
+    "precommit": "lint-staged && npm test",
+    "lint": "npm-run-all lint:*",
+    "lint:scripts": "prettier-eslint '**/*.js' --write --list-different",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "stylelint-config-property-sort-order-smacss": "^3.0.1",
+    "stylelint-config-sass-guidelines": "^5.0.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^3.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=9"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "~4.3.0",
+    "npm-run-all": "~4.1.2"
+  },
+  "keywords": [
+    "showbie",
+    "stylelint-config"
+  ],
+  "lint-staged": {
+    "*.{js|json}": [
+      "prettier-eslint --list-different",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
