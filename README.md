@@ -25,4 +25,4 @@ Then add the extends to your `.stylelintrc.js`:
 
 [npm-img]: https://img.shields.io/npm/v/@showbie/stylelint-config.svg?style=flat-square
 
-[eslint]: https://stylelint.io
+[stylelint]: https://stylelint.io
