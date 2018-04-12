@@ -1,4 +1,4 @@
 module.exports = {
-    extends: '@showbie/eslint-config',
-    rules: {},
+  extends: '@showbie/eslint-config',
+  rules: {},
 }
