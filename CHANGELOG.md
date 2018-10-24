@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.1 — 2018-10-24
+
+### 🏠 Internal
+* [#2](https://github.com/showbie/showbie-stylelint-config/pull/2) 📦 Add lerna-changelog package ([@stormwarning](https://github.com/stormwarning))
+* [#1](https://github.com/showbie/showbie-stylelint-config/pull/1) 📦 Upgrade dependencies ([@stormwarning](https://github.com/stormwarning))
+
+### Committers: 1
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+
 ## 0.1.0 — 2018-04-12
 
 ### 🎉 Initial project release
