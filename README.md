@@ -1,5 +1,7 @@
 # showbie-stylelint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/showbie/showbie-stylelint-config.svg)](https://greenkeeper.io/)
+
 [![npm version][npm-img]][npm-url]
 
 [Stylelint][] configuration for Showbie projects.
