@@ -5,6 +5,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.1.2 — 2019-01-09
+
+### 🏠 Internal
+* [#3](https://github.com/showbie/showbie-stylelint-config/pull/3) 📦 Upgrade dependencies ([@stormwarning](https://github.com/stormwarning))
+
+### Committers: 1
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+
 ## 0.1.1 — 2018-10-24
 
 ### 🏠 Internal
