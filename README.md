@@ -9,7 +9,7 @@
 Install the conventions by running:
 
 ```sh
-yarn add -D eslint @showbie/stylelint-config
+yarn add -D stylelint @showbie/stylelint-config
 ```
 
 Then add the extends to your `.stylelintrc.js`:
