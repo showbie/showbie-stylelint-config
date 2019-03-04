@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/showbie/showbie-stylelint-config",
   "repository": "showbie/showbie-stylelint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "scripts": {
     "changelog": "lerna-changelog",
     "lint": "prettier-eslint '**/*.js' --list-different",
