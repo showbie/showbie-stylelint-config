@@ -27,7 +27,7 @@
     "@showbie/eslint-config": "^0.1.1",
     "husky": "^1.3.1",
     "lerna-changelog": "^0.8.2",
-    "lint-staged": "^8.1.0",
+    "lint-staged": "^8.1.5",
     "stylelint": "^9.9.0"
   },
   "keywords": [
