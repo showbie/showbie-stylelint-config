@@ -5,6 +5,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.2.0 — 2019-03-04
+
+#### 🏠 Internal
+* [#11](https://github.com/showbie/showbie-stylelint-config/pull/11) 📦 Bump stylelint-scss from 3.4.4 to 3.5.4 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#7](https://github.com/showbie/showbie-stylelint-config/pull/7) 🔒 Bump lodash from 4.17.5to 4.17.11 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#6](https://github.com/showbie/showbie-stylelint-config/pull/6) 📦 Bump stylelint from 9.9.0 to 9.10.1 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#12](https://github.com/showbie/showbie-stylelint-config/pull/12) 📦 Bump @showbie/eslint-config from0.1.1 to 0.3.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
+* [#13](https://github.com/showbie/showbie-stylelint-config/pull/13) 📦 Bump lint-staged from 8.1.0 to 8.1.5 ([@dependabot[bot]](https://github.com/apps/dependabot))
+
 ## 0.1.2 — 2019-01-09
 
 ### 🏠 Internal
