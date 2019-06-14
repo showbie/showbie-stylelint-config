@@ -5,30 +5,44 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.3.0 — 2019-06-14
+
+### 🏠 Internal
+* [#32](https://github.com/showbie/showbie-stylelint-config/pull/32) 📦 Bump @showbie/eslint-config from 0.3.0 to 0.3.2 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#31](https://github.com/showbie/showbie-stylelint-config/pull/31) 📦 Bump lint-staged from 8.1.5 to 8.2.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#26](https://github.com/showbie/showbie-stylelint-config/pull/26) 📦 Bump stylelint-scss from 3.5.4 to 3.8.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#29](https://github.com/showbie/showbie-stylelint-config/pull/29) 📦 Bump husky from 1.3.1 to 2.4.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#17](https://github.com/showbie/showbie-stylelint-config/pull/17) Bump stylelint-config-sass-guidelines from 5.3.0 to 5.4.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#16](https://github.com/showbie/showbie-stylelint-config/pull/16) Bump stylelint-order from 2.1.0 to 2.2.1 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#14](https://github.com/showbie/showbie-stylelint-config/pull/14) Bump stylelint-order from 2.0.0 to 2.1.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## 0.2.0 — 2019-03-04
 
-#### 🏠 Internal
+### 🏠 Internal
 * [#11](https://github.com/showbie/showbie-stylelint-config/pull/11) 📦 Bump stylelint-scss from 3.4.4 to 3.5.4 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#7](https://github.com/showbie/showbie-stylelint-config/pull/7) 🔒 Bump lodash from 4.17.5to 4.17.11 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#6](https://github.com/showbie/showbie-stylelint-config/pull/6) 📦 Bump stylelint from 9.9.0 to 9.10.1 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#12](https://github.com/showbie/showbie-stylelint-config/pull/12) 📦 Bump @showbie/eslint-config from0.1.1 to 0.3.0 ([@dependabot[bot]](https://github.com/apps/dependabot))
 * [#13](https://github.com/showbie/showbie-stylelint-config/pull/13) 📦 Bump lint-staged from 8.1.0 to 8.1.5 ([@dependabot[bot]](https://github.com/apps/dependabot))
 
-## 0.1.2 — 2019-01-09
+### 0.1.2 — 2019-01-09
 
-### 🏠 Internal
+#### 🏠 Internal
 * [#3](https://github.com/showbie/showbie-stylelint-config/pull/3) 📦 Upgrade dependencies ([@stormwarning](https://github.com/stormwarning))
 
-### Committers: 1
+#### Committers: 1
 - Jeff ([@stormwarning](https://github.com/stormwarning))
 
-## 0.1.1 — 2018-10-24
+### 0.1.1 — 2018-10-24
 
-### 🏠 Internal
+#### 🏠 Internal
 * [#2](https://github.com/showbie/showbie-stylelint-config/pull/2) 📦 Add lerna-changelog package ([@stormwarning](https://github.com/stormwarning))
 * [#1](https://github.com/showbie/showbie-stylelint-config/pull/1) 📦 Upgrade dependencies ([@stormwarning](https://github.com/stormwarning))
 
-### Committers: 1
+#### Committers: 1
 - Jeff ([@stormwarning](https://github.com/stormwarning))
 
 ## 0.1.0 — 2018-04-12
