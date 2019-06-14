@@ -24,7 +24,7 @@
     "stylelint": ">=9"
   },
   "devDependencies": {
-    "@showbie/eslint-config": "^0.3.0",
+    "@showbie/eslint-config": "^0.3.2",
     "husky": "^2.4.1",
     "lerna-changelog": "^0.8.2",
     "lint-staged": "^8.2.1",
