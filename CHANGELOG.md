@@ -5,6 +5,17 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.3.1 — 2019-07-05
+
+#### 🏠 Internal
+* [#38](https://github.com/showbie/showbie-stylelint-config/pull/38) Bump lint-staged from 8.2.1 to 9.0.2 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#39](https://github.com/showbie/showbie-stylelint-config/pull/39) Bump stylelint-scss from 3.8.0 to 3.9.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#36](https://github.com/showbie/showbie-stylelint-config/pull/36) Bump husky from 2.4.1 to 3.0.0 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#33](https://github.com/showbie/showbie-stylelint-config/pull/33) Bump stylelint, stylelint-config-property-sort-order-smacss, stylelint-order and stylelint-config-sass-guidelines ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+
+#### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## 0.3.0 — 2019-06-14
 
 ### 🏠 Internal
