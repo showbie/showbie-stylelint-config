@@ -5,6 +5,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.4.0 — 2019-11-05
+
+### 🏠 Internal
+* [#81](https://github.com/showbie/showbie-stylelint-config/pull/81) 🔒 Bump `https-proxy-agent` to 2.2.4 ([@stormwarning](https://github.com/stormwarning))
+* [#75](https://github.com/showbie/showbie-stylelint-config/pull/75) 📦 Bump `husky` to 3.0.9 ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+* [#80](https://github.com/showbie/showbie-stylelint-config/pull/80) 📦 Upgrade Stylelint plugins & configs ([@stormwarning](https://github.com/stormwarning))
+* [#79](https://github.com/showbie/showbie-stylelint-config/pull/79) 📦 Upgrade devDependencies ([@stormwarning](https://github.com/stormwarning))
+
+### Committers: 2
+- Jeff ([@stormwarning](https://github.com/stormwarning))
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ### 0.3.2 — 2019-07-16
 
 #### 🏠 Internal
