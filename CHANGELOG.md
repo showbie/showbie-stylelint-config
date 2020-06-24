@@ -5,6 +5,23 @@
 
 All notable changes to this project will be documented in this file.
 
+### 0.4.1 — 2020-06-24
+
+#### 🏠 Internal
+* Bump Stylelint dependencies ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)) \
+  Major version increases are due to support for Node 8 being dropped in many packages.
+  * [#106](https://github.com/showbie/showbie-stylelint-config/pull/106) Bump `stylelint-order` from 3.1.1 to 4.1.0
+  * [#105](https://github.com/showbie/showbie-stylelint-config/pull/105) Bump `stylelint-scss` from 3.12.1 to 3.18.0
+  * [#102](https://github.com/showbie/showbie-stylelint-config/pull/102) Bump `stylelint-config-property-sort-order-smacss` from 5.0.0 to 6.3.0
+  * [#86](https://github.com/showbie/showbie-stylelint-config/pull/86) Bump `stylelint-config-sass-guidelines` from 6.1.0 to 6.2.0
+* Bump dev dependencies ([@dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+  * [#107](https://github.com/showbie/showbie-stylelint-config/pull/107) Bump `lint-staged` from 9.4.2 to 10.2.11
+  * [#99](https://github.com/showbie/showbie-stylelint-config/pull/99) Bump `husky` from 3.0.9 to 4.2.5
+  * [#97](https://github.com/showbie/showbie-stylelint-config/pull/97) Bump `lerna-changelog` from 0.8.2 to 1.0.1
+
+#### Committers: 1
+- [@dependabot-preview[bot]](https://github.com/apps/dependabot-preview)
+
 ## 0.4.0 — 2019-11-05
 
 ### 🏠 Internal
