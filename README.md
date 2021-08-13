@@ -1,8 +1,6 @@
 # showbie-stylelint-config
 
-[![npm version][npm-img]][npm-url]
-
-[Stylelint][] configuration for Showbie projects.
+> [Stylelint][] configuration for Showbie projects.
 
 ## Usage
 
@@ -20,9 +18,5 @@ Then add the extends to your `.stylelintrc.js`:
   rules: { /* … */ }
 }
 ```
-
-[npm-url]: https://www.npmjs.com/package/@showbie/stylelint-config
-
-[npm-img]: https://img.shields.io/npm/v/@showbie/stylelint-config.svg?style=flat-square
 
 [stylelint]: https://stylelint.io

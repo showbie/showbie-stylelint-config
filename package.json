@@ -1,6 +1,6 @@
 {
   "name": "@showbie/stylelint-config",
-  "description": "Showbie’s CSS/Sass code style",
+  "description": "Stylelint configuration for Showbie projects",
   "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
@@ -12,7 +12,8 @@
   "scripts": {
     "changelog": "lerna-changelog",
     "lint": "prettier-eslint '**/*.js' --list-different",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "stylelint-config-property-sort-order-smacss": "6.3.0",
@@ -25,7 +26,7 @@
   },
   "devDependencies": {
     "@showbie/eslint-config": "0.4.x",
-    "husky": "4.2.x",
+    "husky": "^7.0.0",
     "lerna-changelog": "1.0.x",
     "lint-staged": "10.2.x",
     "stylelint": "11.1.x"
@@ -38,22 +39,16 @@
     "repo": "showbie/showbie-stylelint-config",
     "labels": {
       "breaking": "💣 Breaking Change",
-      "enhancement": "🚀 Enhancement",
-      "bug": "🐛 Bug Fix",
-      "documentation": "📝 Documentation",
-      "internal": "🏠 Internal"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+      "removed": "🗑️ Removed",
+      "deprecated": "🚚 Deprecated",
+      "changed": "♻️ Changed",
+      "added": "🎁 Added",
+      "fixed": "🐛 Fixed",
+      "security": "🔒 Security"
     }
   },
   "lint-staged": {
-    "*.js": [
-      "prettier-eslint --write",
-      "git add"
-    ]
+    "*.js": "eslint --fix"
   },
   "prettier": {
     "arrowParens": "always",
