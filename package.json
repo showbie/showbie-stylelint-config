@@ -11,7 +11,9 @@
   "version": "0.4.1",
   "scripts": {
     "changelog": "lerna-changelog",
-    "lint": "prettier-eslint '**/*.js' --list-different",
+    "changeset": "changeset add",
+    "lint": "eslint '**/*.js'",
+    "release": "changeset publish",
     "test": "npm run lint",
     "prepare": "husky install"
   },
@@ -25,10 +27,15 @@
     "stylelint": ">=10"
   },
   "devDependencies": {
-    "@showbie/eslint-config": "0.4.x",
+    "@changesets/changelog-github": "^0.4.0",
+    "@changesets/cli": "^2.16.0",
+    "@showbie/eslint-config": "^5.0.0",
+    "eslint": "^7.32.0",
     "husky": "^7.0.0",
     "lerna-changelog": "1.0.x",
     "lint-staged": "10.2.x",
+    "prettier": "^2.3.2",
+    "prettier-plugin-packagejson": "^2.2.11",
     "stylelint": "11.1.x"
   },
   "keywords": [
@@ -48,7 +55,8 @@
     }
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": "eslint --fix",
+    "package.json": "prettier --write"
   },
   "prettier": {
     "arrowParens": "always",

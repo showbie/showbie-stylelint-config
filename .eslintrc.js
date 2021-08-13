@@ -1,4 +1,4 @@
 module.exports = {
-  extends: '@showbie/eslint-config',
-  rules: {},
-}
+  env: { node: true },
+  extends: '@showbie',
+};
