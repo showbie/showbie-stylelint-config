@@ -21,18 +21,18 @@ jobs:
         uses: actions/setup-node@v2.4.0
         with:
           node-version: 15.x
-          # registry-url: https://npm.pkg.github.com
+          registry-url: https://npm.pkg.github.com
 
       # Create a temp .npmrc file so changesets doesn't use its default.
-      # - name: Create CI .npmrc
-      #   run: |
-      #     cat << EOF > "$HOME/.npmrc"
-      #       //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
-      #       @showbie:registry=https://npm.pkg.github.com/
-      #       always-auth=true
-      #     EOF
-      #   env:
-      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create CI .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+            @showbie:registry=https://npm.pkg.github.com/
+            always-auth=true
+          EOF
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # https://github.com/bahmutov/npm-install
       # Custom install command to prevent husky from installing.
@@ -52,5 +52,4 @@ jobs:
           title: 'Chore: Publish release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          # NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

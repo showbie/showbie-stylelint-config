@@ -1,5 +1,3 @@
-**_Note:_ Further versions of this package will be published to the GitHub Package registry.**
-
 # showbie-stylelint-config
 
 > [Stylelint][] configuration for Showbie projects.
@@ -9,10 +7,10 @@
 Install the conventions by running:
 
 ```sh
-yarn add -D stylelint @showbie/stylelint-config
+npm i -D stylelint @showbie/stylelint-config
 ```
 
-Then add the extends to your `.stylelintrc.js`:
+Then add the extends to your `stylelint.config.js`:
 
 ```js
 {
