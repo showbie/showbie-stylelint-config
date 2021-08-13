@@ -1,0 +1,56 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      # https://github.com/actions/checkout
+      - name: Checkout repo
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      # https://github.com/actions/setup-node/
+      - name: Setup Node.js 15.x
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: 15.x
+          # registry-url: https://npm.pkg.github.com
+
+      # https://github.com/bahmutov/npm-install
+      # Custom install command to prevent husky from installing.
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+        with:
+          install-command: npm ci --ignore-scripts --no-audit
+
+      # Create a temp .npmrc file so changesets doesn't use its default.
+      # - name: Create CI .npmrc
+      #   run: |
+      #     cat << EOF > "$HOME/.npmrc"
+      #       //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+      #       registry=https://npm.pkg.github.com/
+      #       always-auth=true
+      #     EOF
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # https://github.com/changesets/action
+      - name: Create release PR or publish to registry
+        id: changesets
+        uses: changesets/action@master
+        with:
+          # This expects you to have a script called `release` which does a
+          # build for your packages and calls `changeset publish`.
+          publish: npm run release
+          title: 'Chore: Publish release'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
