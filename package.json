@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/showbie/showbie-stylelint-config",
   "repository": "showbie/showbie-stylelint-config",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "changelog": "lerna-changelog",
     "changeset": "changeset add",

@@ -1,5 +1,11 @@
 # Change Log
 
+### 0.4.2 — 2021-08-13
+
+#### 🚚 Deprecated
+
+- Further versions of this package will be published to the GitHub Package registry [#147](https://github.com/showbie/showbie-stylelint-config/pull/147)
+
 ### 0.4.1 — 2020-06-24
 
 #### ♻️ Changed
