@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.0.0
+
+### Major Changes
+
+- [#149](https://github.com/showbie/showbie-stylelint-config/pull/149) [`46f644a`](https://github.com/showbie/showbie-stylelint-config/commit/46f644a8bca9c7afe3902c1f954f3acf5bcf4cd1) Thanks [@stormwarning](https://github.com/stormwarning)! - New versions are now published to the GitHub Package registry
+
+  You will need to add the following to `.npmrc` in your project root:
+
+  ```
+  @showbie:registry=https://npm.pkg.github.com
+  ```
+
 ### 0.4.2 — 2021-08-13
 
 #### 🚚 Deprecated
