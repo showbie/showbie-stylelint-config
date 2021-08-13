@@ -59,8 +59,6 @@
     "package.json": "prettier --write"
   },
   "prettier": {
-    "arrowParens": "always",
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "singleQuote": true
   }
 }
