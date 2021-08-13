@@ -1,14 +1,18 @@
 {
   "name": "@showbie/stylelint-config",
+  "version": "0.4.2",
   "description": "Stylelint configuration for Showbie projects",
+  "keywords": [
+    "showbie",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/showbie/showbie-stylelint-config",
+  "repository": "showbie/showbie-stylelint-config",
   "license": "ISC",
   "author": "Showbie (https://www.showbie.com)",
   "maintainers": [
     "Jeff Nelson @stormwarning (https://www.showbie.com)"
   ],
-  "homepage": "https://github.com/showbie/showbie-stylelint-config",
-  "repository": "showbie/showbie-stylelint-config",
-  "version": "0.4.2",
   "scripts": {
     "changelog": "lerna-changelog",
     "changeset": "changeset add",
@@ -17,14 +21,18 @@
     "test": "npm run lint",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "package.json": "prettier --write"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
   "dependencies": {
     "stylelint-config-property-sort-order-smacss": "6.3.0",
     "stylelint-config-sass-guidelines": "6.2.0",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.18.0"
-  },
-  "peerDependencies": {
-    "stylelint": ">=10"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.0",
@@ -32,16 +40,15 @@
     "@showbie/eslint-config": "^4.0.0",
     "eslint": "^7.32.0",
     "husky": "^7.0.0",
-    "lerna-changelog": "1.0.x",
-    "lint-staged": "10.2.x",
+    "lerna-changelog": "^2.1.0",
+    "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "prettier-plugin-packagejson": "^2.2.11",
-    "stylelint": "11.1.x"
+    "stylelint": "^13.13.1"
   },
-  "keywords": [
-    "showbie",
-    "stylelint-config"
-  ],
+  "peerDependencies": {
+    "stylelint": ">=10"
+  },
   "changelog": {
     "repo": "showbie/showbie-stylelint-config",
     "labels": {
@@ -53,12 +60,5 @@
       "fixed": "🐛 Fixed",
       "security": "🔒 Security"
     }
-  },
-  "lint-staged": {
-    "*.js": "eslint --fix",
-    "package.json": "prettier --write"
-  },
-  "prettier": {
-    "singleQuote": true
   }
 }
