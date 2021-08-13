@@ -1,10 +1,10 @@
 # Change Log
 
-## 0.4.2
+### 0.4.2 — 2021-08-13
 
-### Patch Changes
+#### 🚚 Deprecated
 
-- [#147](https://github.com/showbie/showbie-stylelint-config/pull/147) [`74884b7`](https://github.com/showbie/showbie-stylelint-config/commit/74884b7319ab2d8458b9db5b6ba1aebfe738b1cf) Thanks [@stormwarning](https://github.com/stormwarning)! - Further versions of this package will be published to the GitHub Package registry
+- Further versions of this package will be published to the GitHub Package registry [#147](https://github.com/showbie/showbie-stylelint-config/pull/147)
 
 ### 0.4.1 — 2020-06-24
 
