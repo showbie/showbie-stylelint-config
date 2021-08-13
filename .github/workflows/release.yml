@@ -23,13 +23,6 @@ jobs:
           node-version: 15.x
           # registry-url: https://npm.pkg.github.com
 
-      # https://github.com/bahmutov/npm-install
-      # Custom install command to prevent husky from installing.
-      - name: Install dependencies
-        uses: bahmutov/npm-install@v1
-        with:
-          install-command: npm ci --ignore-scripts --no-audit
-
       # Create a temp .npmrc file so changesets doesn't use its default.
       - name: Create CI .npmrc
         run: |
@@ -40,6 +33,13 @@ jobs:
           EOF
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # https://github.com/bahmutov/npm-install
+      # Custom install command to prevent husky from installing.
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+        with:
+          install-command: npm ci --ignore-scripts --no-audit
 
       # https://github.com/changesets/action
       - name: Create release PR or publish to registry
