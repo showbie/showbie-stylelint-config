@@ -24,15 +24,15 @@ jobs:
           # registry-url: https://npm.pkg.github.com
 
       # Create a temp .npmrc file so changesets doesn't use its default.
-      - name: Create CI .npmrc
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
-            @showbie:registry=https://npm.pkg.github.com/
-            always-auth=true
-          EOF
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Create CI .npmrc
+      #   run: |
+      #     cat << EOF > "$HOME/.npmrc"
+      #       //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
+      #       @showbie:registry=https://npm.pkg.github.com/
+      #       always-auth=true
+      #     EOF
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # https://github.com/bahmutov/npm-install
       # Custom install command to prevent husky from installing.

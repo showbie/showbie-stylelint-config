@@ -1,3 +1,5 @@
+**_Note:_ Further versions of this package will be published to the GitHub Package registry.**
+
 # showbie-stylelint-config
 
 > [Stylelint][] configuration for Showbie projects.
