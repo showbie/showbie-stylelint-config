@@ -1,6 +1,6 @@
 {
   "name": "@showbie/stylelint-config",
-  "version": "0.4.2",
+  "version": "1.0.0",
   "description": "Stylelint configuration for Showbie projects",
   "keywords": [
     "showbie",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "stylelint-config-property-sort-order-smacss": "6.3.0",
-    "stylelint-config-sass-guidelines": "6.2.0",
+    "stylelint-config-sass-guidelines": "8.0.0",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.18.0"
   },
