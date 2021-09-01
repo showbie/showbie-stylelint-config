@@ -29,7 +29,7 @@
     "singleQuote": true
   },
   "dependencies": {
-    "stylelint-config-property-sort-order-smacss": "6.3.0",
+    "stylelint-config-property-sort-order-smacss": "7.1.0",
     "stylelint-config-sass-guidelines": "6.2.0",
     "stylelint-order": "4.1.0",
     "stylelint-scss": "3.18.0"
