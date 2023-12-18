@@ -1,10 +1,12 @@
 module.exports = {
   plugins: ['stylelint-order', 'stylelint-scss'],
   extends: [
+    'stylelint-config-standard',
     'stylelint-config-sass-guidelines',
     'stylelint-config-property-sort-order-smacss',
   ],
   rules: {
+    ' alpha-value-notation': null,
     'function-parentheses-newline-inside': 'always-multi-line',
     'function-parentheses-space-inside': 'never-single-line',
     'selector-class-pattern': ['^[a-z0-9\\-_]+$'],

@@ -17,10 +17,10 @@ jobs:
           fetch-depth: 0
 
       # https://github.com/actions/setup-node/
-      - name: Setup Node.js 15.x
-        uses: actions/setup-node@v2.4.0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 15.x
+          node-version-file: '.nvmrc'
           registry-url: https://npm.pkg.github.com
 
       # Create a temp .npmrc file so changesets doesn't use its default.
