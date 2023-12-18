@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.0
+
+### Major Changes
+
+- [#169](https://github.com/showbie/showbie-stylelint-config/pull/169) [`9a0cc15`](https://github.com/showbie/showbie-stylelint-config/commit/9a0cc15cc0d22207ee2b8d7fbe3b32c7b2786bbf) Thanks [@RobinPayne](https://github.com/RobinPayne)! - This release updates stylelint in a major way, so that it can run properly under node 18. To use this version update to node 18!
+
 ## 1.0.0 — 2021-08-13
 
 #### 💣 Breaking Changes
