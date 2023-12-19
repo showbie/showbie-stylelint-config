@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.0.1
+
+### Patch Changes
+
+- [#171](https://github.com/showbie/showbie-stylelint-config/pull/171) [`72c19f1e45ce622c07256dbf28ccf86dbdc6574c`](https://github.com/showbie/showbie-stylelint-config/commit/72c19f1e45ce622c07256dbf28ccf86dbdc6574c) Thanks [@RobinPayne](https://github.com/RobinPayne)! - Accidentally included some rules that were wrong
+
 ## 2.0.0
 
 ### Major Changes
